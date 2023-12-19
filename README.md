@@ -1,6 +1,6 @@
 # weather_bot
 <div>
-    <p>Coding a bot for viewing weather by using:</p>
+    <p>Coding a bot for <b>viewing weather</b> by using:</p>
     <ul>
         <li>Library "pyTelegramBotAPI"</li>
         <li>API "openseathermap"</li>
