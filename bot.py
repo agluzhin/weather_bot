@@ -41,7 +41,7 @@ def show_weather(message):
     pressure = round(weather_data['main']['pressure']/1.33)
 
     bot.send_message(message.chat.id, f'''
-                     Now in city {city}\n🌡️: {temperature}°C (it feels like  {temperature_feels}°C)\n⛅: {weather}\n💨: {wind} m/s\n💦: {humidity} %\n⚠️: {pressure} m. of m.\n\nTo know the weather of another city use command: "/weather".
+                     Now in city {city}\n\n🌡️: {temperature}°C (it feels like  {temperature_feels}°C)\n⛅: {weather}\n💨: {wind} m/s\n💦: {humidity} %\n⚠️: {pressure} m. of m.\n\nTo know the weather of another city use command: "/weather".
                      ''')
 
 
