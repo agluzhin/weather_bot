@@ -1,4 +1,3 @@
-# weather_bot
 <div>
     <p>Coding a bot for <b>viewing weather</b> by using:</p>
     <ul>
